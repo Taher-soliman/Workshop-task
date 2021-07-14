@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Montserrat Regular 400';
+  src: url(./Montserrat+Regular+400.eot);
+  src: url(./Montserrat+Regular+400.eot?#iefix) format('embedded-opentype'),
+       url(./Montserrat+Regular+400.svg#Montserrat%20Regular%20400) format('svg'),
+       url(./Montserrat+Regular+400.woff) format('woff'),
+       url(./Montserrat+Regular+400.woff2) format('woff2');
+}

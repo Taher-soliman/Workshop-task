@@ -1,0 +1,317 @@
+/* start define font famliy */
+@font-face {
+    font-family: "muli-regular";
+    src: url("../../Fonts/MuliRegular/Muli.eot");
+    /* IE9 Compat Modes */
+    src: url("../../Fonts/MuliRegular/Muli.eot?#iefix") format("embedded-opentype"),
+        url("../../Fonts/MuliRegular/Muli.woff") format("woff"),
+        url("../../Fonts/MuliRegular/Muli.ttf") format("truetype"),
+        url("../../Fonts/MuliRegular/Muli.woff2") format("svg");
+    /* Legacy iOS */
+}
+@font-face {
+    font-family: "poppins-regular";
+    src: url("../../Fonts/PoppinsRegular/Poppins\ Regular\ 400.eot");
+    /* IE9 Compat Modes */
+    src: url("../../Fonts/PoppinsRegular/Poppins\ Regular\ 400.eot") format("embedded-opentype"),
+        url("../../Fonts/PoppinsRegular/Poppins\ Regular\ 400.woff") format("woff"),
+        url("../../Fonts/PoppinsRegular/Poppins\ Regular\ 400.ttf") format("truetype"),
+        url("../../Fonts/PoppinsRegular/Poppins\ Regular\ 400.woff2") format("svg");
+    /* Legacy iOS */
+}
+@font-face {
+    font-family: "montserrat-regular";
+    src: url("../../Fonts/MontserratRegular/Montserrat\ Regular\ 400.eot");
+    /* IE9 Compat Modes */
+    src: url("../../Fonts/PoppinsRegular/Poppins\ Regular\ 400.eot") format("embedded-opentype"),
+        url("../../Fonts/MontserratRegular/Montserrat\ Regular\ 400.woff") format("woff"),
+        url("../../Fonts/MontserratRegular/Montserrat\ Regular\ 400.ttf") format("truetype"),
+        url("../../Fonts/MontserratRegular/Montserrat\ Regular\ 400.woff2") format("svg");
+    /* Legacy iOS */
+}
+
+/* Start Header Style */
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    align-items: center;
+}
+
+/* Start Ginaric container  */
+.container{
+    width: calc(100% - 260px);
+    margin: 0 auto;
+}
+.header .header__nav .header__nav__navbar__menu-icon {
+    display: none;
+}
+.header .header__nav .header__nav__navbar__colapse__list{
+    list-style: none;
+    padding: 0;
+}
+.header .header__nav .header__nav__navbar__colapse__list li{
+    background-color: #525ffb;
+    margin-right: 10px;
+    display: inline-block;
+}
+.header .header__nav .header__nav__navbar__colapse__list li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+/* Start Ginric btn */
+ .button{
+    font-family: "muli-regular";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.35;
+    color: #525ffb;
+    border-radius: 100px;
+    border: 2px solid #525ffb;
+    padding: 13px 10px;
+    min-width: 147px;
+}
+/* end genric button */
+
+/* Task Management Section */
+.home-page__task-management{
+    width: calc(100% - 200px);
+    margin: 0 auto;
+}
+.home-page__task-management{
+    display: flex;
+}
+.home-page__task-management>div{
+    width: 50%;
+}
+.home-page__task-management__task-management-img img{
+    width: 100%;
+}
+
+.task-management-header{
+    
+    margin: 0 0 19px 0px;
+    font-family: "Poppins-regular";
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: -0.49px;
+    text-align: left;
+    color: #1e1c24;
+}
+.task-management-brif{
+    
+    font-size: 20px;
+    font-family: "muli-regular";
+    color: #b1aaaa;
+    font-weight: bold;
+    line-height: 1.75;
+}
+.task-management__company-name{
+    font-family: "montserrat-regular";
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    border: solid 2px #ebebeb;
+    padding: 26px 128.6px 23px 25.3px;
+    opacity: 0.36;
+    border-radius: 100px;
+    margin: 0;
+    display: inline-block;
+}
+.them-blue{
+    background-color: #525ffb;
+    color: white;
+    font-family: "Poppins-regular";
+}
+
+/* Featured Service Start */
+
+.featured-service__header{
+    font-family: "Poppins-regular";
+    font-size: 50px;
+    text-align: center;
+    color: #1e1c24;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.home-page__featured-service__items{
+    width: calc(100% - 578.6px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.service-card{
+    background-color: #525ffb;
+    text-align: center;
+    border-radius: 11px;
+    color: white;
+}
+.service-card-img{
+    margin-top: 62.7px;
+}
+.service-card-img img{
+    width: 100%;
+}
+.service-card-header{
+    font-family: "Poppins-regular";
+    font-size: 30px;
+    margin: 0 auto;
+}
+.service-card-brief{
+    font-family: "muli-regular";
+    font-size: 16px;
+    line-height: 1.63;
+    font-weight: bold;
+    margin: 20px 30px;
+}
+.them-gray{
+    background-color: #e9f0ff;
+    color: black;
+    margin-top: 89px;
+}
+.them-orange{
+    background-color: #ffe7aa;
+    color: black;
+    margin-top: 30px;
+}
+
+/* Genaric Classes For Coulmns */
+.col-1{
+    width: 100%;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width: calc(33.333333% - 1%);
+}
+.col-4{
+    width: 25%;
+}
+.col-5{
+    width: 20%;
+}
+.col-6{
+    width: 16.66666667%;
+}
+.col-7{
+    width: 14.28571429%;
+}
+.col-8{
+    width: 12.5%;
+}
+.col-9{
+    width: 11.1111%;
+}
+.col-10{
+    width: 10%;
+}
+.col-11{
+    width: 9.090909091%;
+}
+.col-12{
+    width: 8.333333%;
+}
+
+/* Start Media query */
+
+@media (min-width:768px) and (max-width:991px){
+    .home-page__featured-service__items{
+        width: calc(100% - 289.3px);
+    }
+    .home-page__featured-service__items{
+        flex-wrap: wrap;
+    }
+    .home-page__featured-service__items .service-card{
+        width: calc(50% - 2%);
+        margin: 1%;
+    }
+    .container{
+        width: calc(100% - 60px);
+    }
+    .header .header__nav .header__nav__navbar__menu-icon{
+        display: block;
+    }
+    .header .header__nav .header__nav__navbar__colapse__list li {
+        display: block;
+    }
+    .header .header__nav .header__nav__navbar__colapse{
+        position: fixed;
+        width: 100%;
+        right: -100%;
+        opacity: 0;
+        transition: all 0.4s ease;
+    }
+    .header .header__nav .header__nav__navbar__menu-icon:hover + .header__nav__navbar__colapse{
+        right: 0;
+        overflow: visible;
+        opacity: 1;
+    }
+}
+@media (max-width:767px){
+
+    /* Featured Service Responsive */
+    .home-page__featured-service__items{
+        width: calc(100% - 100px);
+    }
+    .home-page__featured-service__items{
+        flex-wrap: wrap;
+    }
+    .service-card{
+        width: 100%;
+    }
+    /* Task Management Responsive */
+
+    .home-page__task-management{
+        display: block;
+    }
+    .home-page__task-management{
+        width: calc(100% - 50px);
+        margin: 0 auto;
+    }
+    .home-page__task-management>div{
+        width: 100%;
+    }
+    .task-management-header{
+        font-size: 25px;
+        flex-wrap: wrap;
+    }
+    .task-management-brif{
+        font-size: 16px;
+        flex-wrap: wrap;
+    }
+
+    /* Header Responsive */
+
+    .container{
+        width: calc(100% - 30px);
+    }
+    .header .header__nav .header__nav__navbar__menu-icon{
+        display: block;
+    }
+    .header .header__nav .header__nav__navbar__colapse__list li {
+        display: block;
+    }
+    .header .header__nav .header__nav__navbar__colapse{
+        position: fixed;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        opacity: 0;
+        transition: all 0.4s ease;
+    }
+    .colapse-btn{
+        margin: 20px 0px;
+    }
+    .header .header__nav .header__nav__navbar__menu-icon:hover + .header__nav__navbar__colapse{
+        min-height: 255px;
+        height: 255px;
+        overflow: visible;
+        opacity: 1;
+    }
+}

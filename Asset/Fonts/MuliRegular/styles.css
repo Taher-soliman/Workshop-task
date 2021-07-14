@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Muli';
+  src: url(./Muli.eot);
+  src: url(./Muli.eot?#iefix) format('embedded-opentype'),
+       url(./Muli.svg#Muli) format('svg'),
+       url(./Muli.woff) format('woff'),
+       url(./Muli.woff2) format('woff2');
+}
